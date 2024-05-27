@@ -10,7 +10,7 @@ Meeting Application is a web application for online meetings. Just like Zoom, it
 
 **Server:** Node, Express, Peerjs, Socket.io
 
-**Database:** Mongo.db
+**Database:** MongoDB
 
 
 ## Contributing

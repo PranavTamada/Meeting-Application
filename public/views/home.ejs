@@ -1,34 +1,6 @@
 <%- include('common/head.ejs') %>
     <%- include('common/navbar.ejs') %>
 
-        <style>
-            /*
-            .xlde {
-
-                display: flex;
-                align-items: center;
-
-            }
-
-            #gsef {
-                margin: 25px;
-                padding: 20px;
-                border: 1px solid;
-                height: 30px;
-            }
-
-            #join-meeting {
-                border: 1px solid;
-                margin: 25px;
-                padding: 20px;
-                border-radius: 5px;
-            }
-
-            #join-meeting a {
-                text-decoration: none;
-            }
-            */
-        </style>
 
 
 
@@ -323,44 +295,6 @@
             </div>
         </section>
 
-        <!--
-
-        <div class="xlde">
-            <div>
-                <button id="join-meeting"
-                    class="text-white bg-blue-700 hover:bg-blue-800  font-medium text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    <a href="<%= ongoingMeetingId ? '#' : (ongoingMeetingId + '/new-meeting') %>">New Meeting</a>
-                </button>
-            </div>
-            <div>
-                <form action="/join-meeting" method="GET">
-                    <input id="gsef" name="meetingId" placeholder="Enter meeting code" />
-                    <button type="submit"
-                        class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Join</button>
-                </form>
-            </div>
-
-            <br>
-
-        </div>
-        <section>
-            <% if (ongoingMeetingId) { %>
-                <div class="flex justify-left ml-6">
-                    <p>You have already created a meeting
-                        <a style="letter-spacing: 1px;" href="/meeting/<%= ongoingMeetingId %>">
-                            <strong>
-                                <%= ongoingMeetingId %>
-                            </strong>
-                        </a>
-                    </p>
-                </div>
-                <% } %>
-                    <div>
-
-                    </div>
-        </section>
-
-        -->
 
 
         <script>

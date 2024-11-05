@@ -13,11 +13,6 @@ Meeting Application is a web application for online meetings. Just like Zoom, it
 **Database:** MongoDB
 
 
-## Contributing
-
-Contributions are always welcome!
-
-
 ## Screenshots
 
 **Homepage**
